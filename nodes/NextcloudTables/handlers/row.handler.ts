@@ -1,7 +1,7 @@
 import { IExecuteFunctions } from 'n8n-workflow';
 import { ApiHelper } from '../helpers/api.helper';
 import { Row, Column } from '../interfaces';
-import { DataFormatter, FormatOptions } from '../helpers/data.formatter';
+import { FormatOptions } from '../helpers/data.formatter';
 
 export class RowHandler {
 	static async execute(context: IExecuteFunctions, operation: string, itemIndex: number): Promise<any> {
